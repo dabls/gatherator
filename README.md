@@ -45,6 +45,7 @@ for await (const data of generator) {
 | ...other            | `{*}`               | All other given options will be used as default retriever options, which can later be modified with the `getRetrieverOptions` option. |
 
 ### Retriever
+Retriever functions provides the possibility to fetch data from the resource you want, with the technology you prefer.
 
 #### createHttpRetriever
 Returns a retriever function, which executes an http request with [request-promise](https://www.npmjs.com/package/request-promise).
