@@ -1,6 +1,6 @@
 {
   "name": "gatherator",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "iterate over any resource",
   "main": "index.js",
   "scripts": {
